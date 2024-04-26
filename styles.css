@@ -69,3 +69,39 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: rgb(221, 220, 220);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.meal-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.meal-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.meal img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.meal-details {
+    flex-grow: 1;
+}
