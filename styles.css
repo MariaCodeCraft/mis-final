@@ -48,3 +48,24 @@ header {
     text-align: center; 
 }
 
+.details {
+    margin-bottom: 20px; 
+}
+
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
